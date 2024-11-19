@@ -1,4 +1,4 @@
-To setup the app 
+To setup the app <br><br>
 **First**: npm install<br> 
 to install the dependencies<br><br>
 **Second**: npm start <br>
