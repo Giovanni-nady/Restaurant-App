@@ -20,8 +20,10 @@ export default function Products () {
       <FlatList
         data={products}
         renderItem={renderItem}
-        keyExtractor={item => item.id.toString()}
+        keyExtractor={item => item.id?.toString()}
         contentContainerStyle={styles.contentContainerStyle}
+        initialNumToRender={10} 
+        maxToRenderPerBatch={5}
       />
     </View>
   )
